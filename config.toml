@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://julien.cloud/"
+baseurl = "https://climz.github.io/hugo-cv-julien.cloud/public/"
 languageCode = "en-us"
 title = "Julien De Freitas Resume"
 theme = "hugo-orbit-theme"
