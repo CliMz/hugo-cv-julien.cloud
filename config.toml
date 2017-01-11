@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://climz.github.io/hugo-cv-julien.cloud/public/"
+baseurl = "https://juliendf.github.io/hugo-cv-julien.cloud/public/"
 languageCode = "en-us"
 title = "Julien De Freitas Resume"
 theme = "hugo-orbit-theme"
@@ -72,8 +72,8 @@ disable404 = true
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/CliMz"
-        title = "github.com/CliMz"
+        url = "//github.com/juliendf"
+        title = "github.com/juliendf"
 
         [[params.contact.list]]
         class = "twitter"
