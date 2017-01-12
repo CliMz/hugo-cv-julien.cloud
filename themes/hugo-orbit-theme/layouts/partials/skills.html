@@ -3,11 +3,8 @@
                 <div class="skillset">
 				{{ range .Site.Params.skills.list }}
                     <div class="item">
-                        <h3 class="level-title">{{ .skill }}</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="{{ .level }}">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
+                        <span class="level-title">{{ .skill }}</span>
+                              
                     </div><!--//item-->
                 {{ end }}
                 </div>  

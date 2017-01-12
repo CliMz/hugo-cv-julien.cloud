@@ -137,7 +137,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Technology passionate** I have studied a wide variety of subjects such as electronic, network, telecommunication, project management, coding, entrepreneurship and business. <br> Starting to work as an IT Technician about 10 years ago, I am now a recognised Technology Consultant working on strategic projects for large enterprises. <br>The last 5 years I have endorsed several roles such as cloud architect, cloud consultant, team leader, recruiter, CTO and entrepreneur. <br> These experiences offer me the chance to be able to work on lots of different technical subject, customer context and responsibilities. <br>I enjoy navigating between strong technical knowledge, high-level architecture, vision crafting or team leadership. <br>My experience today allows me to combine soft and technical skills to directly engage with c-level stakeholder to help you building the vital bridge between business and technical implementation and lead technical development to deliver projects.<br><br><br>**As a independant contractor** I provide consulting service to deliver and maintain cloud infrastructure.<br> I can help your organisation to : <br> - Re-design application (micro services)<br> - Lead delivery teams <br> - Plan cloud transformation program / cloud migration <br> - Help business transition on technology, process and knowledges management <br> - Define cloud strategy and new cloud operating model <br> - Evangelise on Devops, Agility and cloud concepts <br> - Design Technical Architecture design (high / low level)<br> - Design Systems Integration design (high / low level)<br> - Optimise OPEX costs<br><br><br>**Open to new opportunities for :** <br> - Challenging projects <br> - Located East or Central London <br> - Contract only <br> - Small team or organisation <br> - No Public Sector <br> - At least 50% hands on"
+        summary = "**Technology passionate** I have studied a wide variety of subjects such as electronic, network, telecommunication, project management, coding, entrepreneurship and business. <br> Starting to work as an IT Technician about 10 years ago, I am now a recognised Technology Consultant working on strategic projects for large enterprises. <br>The last 5 years I have endorsed several roles such as cloud architect, cloud consultant, team leader, recruiter, CTO and entrepreneur. <br> These experiences offer me the chance to be able to work on lots of different technical subject, customer context and responsibilities. <br>I enjoy navigating between strong technical knowledge, high-level architecture, vision crafting or team leadership. <br>My experience today allows me to combine soft and technical skills to directly engage with c-level stakeholder to help you building the vital bridge between business and technical implementation and lead technical development to deliver projects.<br><br><br>**As an independant contractor** I provide consulting services to deliver and maintain cloud infrastructure.<br> I can help your organisation to : <br> - Re-design application (micro services)<br> - Lead delivery teams <br> - Plan cloud transformation program / cloud migration <br> - Help business transition on technology, process and knowledges management <br> - Define cloud strategy and new cloud operating model <br> - Evangelise on Devops, Agility and cloud concepts <br> - Design Technical Architecture design (high / low level)<br> - Design Systems Integration design (high / low level)<br> - Optimise OPEX costs<br><br><br>**Open to new opportunities for :** <br> - Challenging projects <br> - Located East or Central London <br> - Contract only <br> - Small team or organisation <br> - No Public Sector <br> - At least 50% hands on"
 
     # Experiences section
     [params.experiences]
@@ -163,7 +163,7 @@ disable404 = true
         position = "Co-Founder and CTO"
         dates = "Oct 2013 - June 2015"
         company = "Flexinfra, Paris"
-        details = "Founder or Flexinfra with 2 friends I was in charge of the technical lead on our private cloud offer and public cloud services. My mission was to : <br> - Design and implementation of cloud infrastructures<br> - Create private and public cloud offers<br> - Modules and interfaces developments<br> - Digital marketing, sales prospection and business networking <br><br> During this period we also achieve outstanding project such as : <br> - **Building partnership** with Alcatel Lucent Enterprise and provide R&D expertise to create a Private Cloud solution offering<br>- **Trainer** for a accelerated training  program to up skill professional to become IT support profesionnals.<br>"
+        details = "Founder or Flexinfra with 2 friends I was in charge of the technical lead on our private cloud offer and public cloud services. <br> My mission was to : <br> - Design and implementation of cloud infrastructures<br> - Create private and public cloud offers<br> - Modules and interfaces developments<br> - Digital marketing, sales prospection and business networking <br><br> During this period we also achieve outstanding project such as : <br> - **Building partnership** with Alcatel Lucent Enterprise and provide R&D expertise to create a Private Cloud solution offering<br>- **Trainer** for a accelerated training  program to up skill professional to become IT support profesionnals.<br>"
 
         [[params.jobs.list]]
         position = "Senior ICT Consultant"
@@ -209,36 +209,28 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Cloud: AWS, OpenStack, GCP"
-        level = "90%"
+        skill = "Cloud : AWS, OpenStack, GCP"
 
         [[params.skills.list]]
         skill = "Container : Docker, Kubernetes"
-        level = "75%"
 
         [[params.skills.list]]
         skill = "Automation/CM : Terraform, Ansible, Puppet "
-        level = "80%"
 
         [[params.skills.list]]
         skill = "Scripting : Bash, Python, Golang"
-        level = "80%"
                 
         [[params.skills.list]]
         skill = "CI/CD : Jenkins, Go.cd, GIT"
-        level = "70%"
 
         [[params.skills.list]]
         skill = "Linux : All Linux Distributions"
-        level = "90%"
 
         [[params.skills.list]]
-        skill = "Microsoft : All Windows version"
-        level = "95%"
+        skill = "Microsoft : All Windows versions"
 
         [[params.skills.list]]
         skill = "Project delivery : Scrum, Jira, Trello, Kanban, Agile Development,"
-        level = "75%"
 
 
     # Footer section
