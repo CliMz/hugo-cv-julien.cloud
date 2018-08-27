@@ -147,7 +147,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Senior Infrastructure Developer"
-        dates = "November 2016 - Present"
+        dates = "November 2016 - February 2017"
         company = "Sainsbury's, London | Contract"
         details = "As a member of the Infra Dev team I am working on several project to help delivering devops project. I also evaluated   several way to deploy and maintain Kubernetes cluster and develop and create an automated solution to analyse and propose cost optimisaton accross multiple AWS accounts."
 
