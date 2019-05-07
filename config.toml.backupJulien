@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Online CV julien.cloud"
-    author = "Julien de Freitas"
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
 
 # Theme styles
 
@@ -24,15 +24,16 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-6.css"
+	styles = "styles-6.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
-        name = "Julien de Freitas"
+        name = "Julien De Freitas"
         tagline = "☁ Devops Engineer, Technical Lead & Architect | Contractor ☁"
-        avatar = "julienProfile.png"
+        #avatar = "profile.png"
+        avatar = "static/julienProfile.png"
 
     # Contact section
     [params.contact]
@@ -108,13 +109,15 @@ disable404 = true
         language = "English"
         level = "Professional fluent"
 
+
+
     # Interests section
     [params.interests]
         enable = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Running & trail"
+        interest = "Running"
 
         [[params.interests.list]]
         interest = "Crossfit"
@@ -133,27 +136,14 @@ disable404 = true
     [params.summary]
         enable = true
         icon = "fa-user"
-        title = "Career Profile"
-        summary = "**Who Am I ?** <br>Technology passionate, I have studied a wide variety of subjects such as electronic, network, telecommunication, project management, coding, entrepreneurship and business. <br> Starting to work as an IT Technician more than 10 years ago, I am now a recognised Technology Consultant working on strategic projects for small and large enterprises. <br>The last 5 years I have endorsed several roles such as cloud architect, cloud consultant, team leader, recruiter, CTO and entrepreneur. <br> These experiences offer me the chance to be able to work on lots of different technical subject, customer context and responsibilities. <br>I enjoy navigating between strong technical knowledge, high-level architecture, vision crafting or team leadership. <br>My experience today allows me to combine soft and technical skills to directly engage with c-level stakeholder to help you building the vital bridge between business and technical implementation and lead technical development to deliver projects.<br><br>**What can I do for you ?**<br>As an independant contractor, I provide consulting services to deliver and maintain cloud infrastructure. I can help your organisation to : <br> - Define cloud strategy and new cloud operating model<br> - Plan cloud transformation program / cloud migration <br> - Lead delivery teams <br> - Help business transition on technology, process and knowledges management <br>  - Evangelise on Devops, Agility and cloud concepts <br> - Design Technical Architecture design (high / low level)<br> - Design Systems Integration design (high / low level)<br> - Optimise OPEX costs <br> - Re-design application (micro services)<br><br>**Open to :** <br> - Remote contract <br> - Focused on deliverables with Statement of Work  <br> - Technologies : AWS, Terraform, Kubernetes, Docker, Ansible etc. "
-
+        title = "carreer Profile"
+        summary = "**Technology passionate** I have studied a wide variety of subjects such as electronic, network, telecommunication, project management, coding, entrepreneurship and business. <br> Starting to work as an IT Technician about 10 years ago, I am now a recognised Technology Consultant working on strategic projects for large enterprises. <br>The last 5 years I have endorsed several roles such as cloud architect, cloud consultant, team leader, recruiter, CTO and entrepreneur. <br> These experiences offer me the chance to be able to work on lots of different technical subject, customer context and responsibilities. <br>I enjoy navigating between strong technical knowledge, high-level architecture, vision crafting or team leadership. <br>My experience today allows me to combine soft and technical skills to directly engage with c-level stakeholder to help you building the vital bridge between business and technical implementation and lead technical development to deliver projects.<br><br><br>**As an independant contractor** I provide consulting services to deliver and maintain cloud infrastructure.<br> I can help your organisation to : <br> - Re-design application (micro services)<br> - Lead delivery teams <br> - Plan cloud transformation program / cloud migration <br> - Help business transition on technology, process and knowledges management <br> - Define cloud strategy and new cloud operating model <br> - Evangelise on Devops, Agility and cloud concepts <br> - Design Technical Architecture design (high / low level)<br> - Design Systems Integration design (high / low level)<br> - Optimise OPEX costs<br><br><br>**Open to new opportunities for :** <br> - Challenging projects <br> - Located East or Central London <br> - Contract only <br> - Small team or organisation <br> - No Public Sector <br> - At least 50% hands on"
 
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
         title = "Experiences"
-
-        [[params.jobs.list]]
-        position = "Infrastructure technical lead"
-        dates = "May 2018 - March 2019"
-        company = "VIOOH, London | Contract"
-        details = "As an infrastructure lead I was brought in to bring structure and process and therefore implemented scrum, improve global infrastructure documentation, control and reduce AWS costs, review and reduce technical debt, report to CTO, engage with external providers. <br>Hands on on : Terraform, Kubernetes, Python, Bash"
-
-        [[params.jobs.list]]
-        position = "Devops consultant"
-        dates = "March 2017 - January 2018"
-        company = "HSBC, London | Contract"
-        details = "As a Devops consultant I was part of the adoption program team working on several project focused on deploying infrastructure on AWS.<br>Hands on on : Terraform, Lambda, Go.cd and Python."
 
         [[params.jobs.list]]
         position = "Senior Infrastructure Developer"
@@ -166,7 +156,7 @@ disable404 = true
         position = "Cloud Consultant"
         dates = "July 2015 - Oct 2016"
         company = "Cloudreach, London | Permanent"
-        details = "As a Cloud Consultant I endorsed several roles within Cloudreach :<br> - **Mission : Cloud architect @ British Petroleum**<br>Design cloud architecture and lead the development of a worldwide enterprise cloud solution. Satisfy security and compliance requirement. Integrate with existing process, tools, infrastructure and network. Drive DevOps patterns with the deployment of automation, workflow engine and log capture tools. Clarify technical concept and cloud paradigm.<br> - **Mission : Cloud Consultant @ FCA**<br>I was in charge of creating the roadmap for the cloud transformation phase 2 (Highly available services, Security, Review Best Practices, Identify tech debt etc.) <br> - **Role Owner @ Internal**<br> As the role owner for Cloud Consultant within Cloudreach I created the job description to recruit new consultant, conduct more then 30 interviews, defined evaluation criteria and carrer path for the team."
+        details = "As a Cloud Consultant I endorsed several roles within Cloudreach :<br> - **Cloud architect @ British Petroleum**<br>Design cloud architecture and lead the development of a worldwide enterprise cloud solution. Satisfy security and compliance requirement. Integrate with existing process, tools, infrastructure and network. Drive DevOps patterns with the deployment of automation, workflow engine and log capture tools. Clarify technical concept and cloud paradigm.<br> - **Cloud Consultant @ FCA**<br>I was in charge of creating the roadmap for the cloud transformation phase 2 (Highly available services, Security, Review Best Practices, Identify tech debt etc.) <br> - **Role Owner @ Internal**<br> As the role owner for Cloud Consultant within Cloudreach I created the job description to recruit new consultant, conduct more then 30 interviews, defined evaluation criteria and carrer path for the team."
 
 
         [[params.jobs.list]]
@@ -180,7 +170,7 @@ disable404 = true
         dates = "Jan 2011 - Sept 2013"
         company = "LanExpert, Geneva"
         details = "As a member of the consulting team I was in charge of helping our clients with their IT projects. This involved a lot of different technologies such as : Citrix, Hyper V, Active Directory, DNS, DHCP, BackupExec, Forefront, Remote Desktop Service, Profile Management, SAN, Vmware, LANdesk, Network.<br> "
-    
+
     # Projects section
     [params.projects]
         enable = true
@@ -190,9 +180,9 @@ disable404 = true
 
         [[params.projects.list]]
         title = "Senate"
-        url = "https://github.com/juliendf/senate"
+        url = "https://github.com/CliMz/senate"
         tagline = "Open Source project to analyse and propose cloud optimiation on cost, security and architecture best practice."
-
+    
     # Certification section
     [params.certification]
         enable = true
@@ -204,6 +194,14 @@ disable404 = true
         title = "AWS"
         tagline = "Certified Solutions Architect - Associate"
 
+        [[params.certification.list]]
+        title = "Openstack"
+        tagline = "Certified administrator for Openstack - MCA100"
+
+        [[params.certification.list]]
+        title = "Microsoft"
+        tagline = "MCSA Windows Server 2012R2, MCITP Enterprise Administrator on Windows Server 2008"
+
     # Skills section
     [params.skills]
         enable = true
@@ -211,28 +209,29 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "AWS"
-        level = "85%"
+        skill = "Cloud : AWS, OpenStack, GCP"
+
+        [[params.skills.list]]
+        skill = "Container : Docker, Kubernetes"
+
+        [[params.skills.list]]
+        skill = "Automation/CM : Terraform, Ansible, Puppet "
+
+        [[params.skills.list]]
+        skill = "Scripting : Bash, Python, Golang"
                 
         [[params.skills.list]]
-        skill = "Docker & Kubernetes"
-        level = "75%"
+        skill = "CI/CD : Jenkins, Go.cd, GIT"
 
         [[params.skills.list]]
-        skill = "Terraform"
-        level = "85%"
+        skill = "Linux : All Linux Distributions"
 
         [[params.skills.list]]
-        skill = "Bash, Python"
-        level = "80%"
+        skill = "Microsoft : All Windows versions"
 
         [[params.skills.list]]
-        skill = "Jenkins, Go.cd"
-        level = "75%"
+        skill = "Project delivery : Scrum, Jira, Trello, Kanban, Agile Development,"
 
-        [[params.skills.list]]
-        skill = "Agile Development"
-        level = "90%"
 
     # Footer section
 
